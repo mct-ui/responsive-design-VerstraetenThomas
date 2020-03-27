@@ -340,6 +340,26 @@ a:focus {
   #COMPONENTS
 \*------------------------------------*/
 
+/*
+    Component: Logo
+    ---
+    Website main logo
+*/
+
+.c-logo {
+    height: 32px;
+}
+
+.c-logo__symbol {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .c-logo {
+        height: 40px;
+    }
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
@@ -611,6 +631,7 @@ a:focus {
     h3{
         font-weight: 200;
     }
+
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up)
